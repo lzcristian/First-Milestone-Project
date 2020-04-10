@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Caveat|Roboto:300,400,500&display=swap');
+
+body {
+    background-color: #1a1a1a;
+    }
+
+h1,h2,h3,h5 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/* Navbar */
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding: 0;
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #fff;
+    font-family: "Abel", sans-serif;
+    font-size: 80px;
+    transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -webkit-transition: all 3s ease-in-out;
+}
+
+.bg-image {
+    height: 80vh;
+    background: url("../images/2a.jpg") center center/cover no-repeat fixed padding-box border-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.container-wrapper--grey {
+    background-color: #9e9e9e;
+    color: black;
+    margin: 0px;
+}
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;    
+}
+
+.block-divider {
+    width: 150px;
+    height: 5px;
+    border: 0;
+    background-color: #444;    
+}
+
+
+.block-divider--short {
+    width: 250px;
+    margin-bottom: 50px;    
+}
+
+.block-divider--white {
+    background-color: black;
+}
+
+.services-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services-wrap {
+    background-color: rgb(238, 238, 238);
+    padding: 20px 0 0 0px;
+    margin: 5px;
+}
+
+.services-text i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.services-text h5 {
+    margin: 20px;
+    text-align: center;
+    font-family: "Caveat", sans-serif;
+}
+
+
+
+/* -----------------------------------Media Queries*/
+
+
+@media(max-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+    }
+
+    .jumbotron-header {
+    color: #fff;
+    font-family: "Abel", sans-serif;
+    font-size: 35px;
+    }
+}    
