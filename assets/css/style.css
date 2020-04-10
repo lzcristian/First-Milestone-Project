@@ -132,6 +132,13 @@ h1,h2,h3,h5 {
     background-color: black;
 }
 
+.page-header a {
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #d41a1a;
+}
+
 .services-text {
     text-align: center;
     margin-bottom: 40px;
@@ -153,6 +160,51 @@ h1,h2,h3,h5 {
     margin: 20px;
     text-align: center;
     font-family: "Caveat", sans-serif;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.col-sm-4 p {
+    margin: 10px 0 0 0;
+}
+
+.social-links {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.title-align {
+   text-align: right;
 }
 
 
