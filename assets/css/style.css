@@ -83,9 +83,40 @@ h1,h2,h3,h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
+
+.about-image {
+    height: 60vh;
+    background: url("../images/p7.jpg") center center/cover no-repeat fixed padding-box border-box;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.contact-image {
+    height: 60vh;
+    background: url("../images/contact-us.jpg") center center/cover no-repeat fixed padding-box border-box;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.bg-color-contact {
+    background-color: rgb(238, 238, 238);
+}
+
+.about-header {
+    color: #fff;
+    font-family: "Caveat", sans-serif;
+    font-size: 150px;
+    font-weight: bold;       
+}
+
 
 .opaque-overlay {
     position: absolute;
@@ -95,6 +126,16 @@ h1,h2,h3,h5 {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+.about-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 
 .content-container {
     padding-top: 50px;
@@ -171,6 +212,13 @@ h1,h2,h3,h5 {
     font-family: "Caveat", sans-serif;
 }
 
+.services-text h4 {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Caveat", sans-serif;
+}
+
 .images-container {
     background-color: #9e9e9e;
     margin-top: 80px;    
@@ -199,6 +247,26 @@ h1,h2,h3,h5 {
 
 .zoom:hover {
     transform: scale(1.2);
+}
+
+.contact-heading {
+    font-family: "Caveat", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
 }
 
 
@@ -265,6 +333,13 @@ footer {
     color: #fff;
     font-family: "Abel", sans-serif;
     font-size: 35px;
+    }
+
+    .services-text h4 {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Caveat", sans-serif;
     }
 
     .polaroid {
