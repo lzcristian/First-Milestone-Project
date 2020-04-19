@@ -73,4 +73,3 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from the projects done during the CodeInstitute learning modules, tutorials and lessons from w3schools.com, codepen.io and css-tricks.com.
-- The lines of code used for the form validation pop-up window are from w3schools.com tutorial, as I haven't learned yet to use javascript.

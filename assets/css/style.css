@@ -208,14 +208,14 @@ h1,h2,h3,h5 {
 .services-text h5 {
     margin: 20px;
     text-align: center;
-    font-family: "Caveat", sans-serif;
+    font-family: "Abel", sans-serif;
 }
 
 .services-text h4 {
     margin-top: 20px;
     font-size: 30px;
     text-align: center;
-    font-family: "Caveat", sans-serif;
+    font-family: "Abel", sans-serif;
 }
 
 .images-container {
@@ -338,8 +338,9 @@ footer {
     margin-top: 20px;
     font-size: 15px;
     text-align: center;
-    font-family: "Caveat", sans-serif;
+    font-family: "Abel", sans-serif;
     }
+
 
     .polaroid {
     max-width: 375px;
@@ -351,7 +352,17 @@ footer {
 
     .zoom:hover {
     transform: none;
-}
+    }
+
+    .contact-align {
+   text-align: left;
+   padding-top: 30px;
+    }
+
+    .title-align {
+   text-align: right;
+   padding-top: 30px;
+    }
 
 
 }    
