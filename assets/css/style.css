@@ -18,7 +18,6 @@ h1,h2,h3,h5 {
 }
 
 
-/* Navbar */
 
 .container-fluid {
     width: 100%;
@@ -262,7 +261,7 @@ h1,h2,h3,h5 {
     max-width: 70%;
 }
 
-button[type="submit"] {
+button[type="button"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
