@@ -13,7 +13,17 @@ The colour palette chosen for the website is neutral grays and black, a modern a
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The project represents the website of an architecture company. It consists of four pages “Home, Prices, About and Contact”.
+Each page has been designed to be easy to read and navigate.
+Also they feature a header with a navigation menu and a footer with contact details and links to social media accounts.
+All the information available to the viewer is enough to have an idea of the company’s profile, how the company can help them and what are their services.
+
+The “Home” page is divided in three main sections spread between the header and the footer.
+At the top, the first section is dedicated to the hero image, an image representative for the company and a welcome title.
+The middle section represents the opportunity for the company to describe the services it offers at different stages of a project.
+The bottom section was created to highlight a selection with photos from various projects created by the company.
+
+The "Prices" page is entirely dedicated.....
  
 
 

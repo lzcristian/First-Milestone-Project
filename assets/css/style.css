@@ -320,7 +320,7 @@ footer {
 /* -----------------------------------Media Queries*/
 
 
-@media(max-width: 600px) {
+@media(max-width: 768px) {
     .center-form {
     padding-top: 30px;
     min-height: 240px;
@@ -343,7 +343,7 @@ footer {
 
 
     .polaroid {
-    max-width: 375px;
+    max-width: 300px;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 10px auto;
