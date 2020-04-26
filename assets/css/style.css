@@ -193,10 +193,22 @@ h1,h2,h3,h5 {
     margin-bottom: 40px;
 }
 
+.our-services {
+    color: #fafafa;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
 .services-wrap {
     background-color: rgb(238, 238, 238);
     padding: 20px;
     margin: 5px auto;    
+}
+
+.our-services-wrap {
+    background-color: rgb(99, 98, 98);
+    padding: 20px;
+    margin: 0;    
 }
 
 .services-text i {
