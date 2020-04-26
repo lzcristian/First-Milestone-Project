@@ -229,6 +229,11 @@ h1,h2,h3,h5 {
     margin: 0;    
 }
 
+.price-list li {
+    font-family: "Abel", sans-serif;
+    font-size: 14px;
+}
+
 .services-text i {
     margin-bottom: 20px;
     font-size: 45px;
