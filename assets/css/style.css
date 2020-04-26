@@ -18,7 +18,6 @@ h1,h2,h3,h5 {
 }
 
 
-
 .container-fluid {
     width: 100%;
     padding-right: 0px;
@@ -149,6 +148,8 @@ h1,h2,h3,h5 {
 }
 
 
+
+
 .page-header {
     margin-bottom: 0;
     border-bottom: 0;
@@ -199,6 +200,17 @@ h1,h2,h3,h5 {
     margin-bottom: 15px;
 }
 
+.table th {
+    color: black;
+    text-align: left;
+    font-family: "Abel", sans-serif;
+    font-size: 30px;    
+}
+
+.table td {
+    font-family: "Abel", sans-serif;     
+}
+
 .services-wrap {
     background-color: rgb(238, 238, 238);
     padding: 20px;
@@ -207,6 +219,12 @@ h1,h2,h3,h5 {
 
 .our-services-wrap {
     background-color: rgb(99, 98, 98);
+    padding: 20px;
+    margin: 0;    
+}
+
+.price-list {
+    background-color: rgb(238, 238, 238);
     padding: 20px;
     margin: 0;    
 }
