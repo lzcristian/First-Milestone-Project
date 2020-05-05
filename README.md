@@ -23,8 +23,11 @@ At the top, the first section is dedicated to the hero image, an image represent
 The middle section represents the opportunity for the company to describe the services it offers at different stages of a project.
 The bottom section was created to highlight a selection with photos from various projects created by the company.
 
-The "Prices" page is entirely dedicated.....
- 
+The "Prices" page is entirely dedicated to listing the services that the company has to offer and the price for each individual service. This way the client knows from start how to plan his budget and whether he wants to appoint the company to do his requests. The presentation style for the services remains in the same line as on the main page, with blocks of text on a grey background. 
+
+The "About Us" page has a short presentation or the company's profile and the type of work they do. The grey and black style continues here as well. 
+
+The last page is the "Contact" page, which has a main image that shows clearly where you are in this website and of course the form that any potential client can fill in and submit for any supplementary information it may require. 
 
 
 ## Technologies Used
@@ -42,27 +45,24 @@ The "Prices" page is entirely dedicated.....
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I have tested each individual page to see if it loads correctly all the elements and if it looks good on mobile, tablet or desktop screen. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+All the links provided are ok and send the user to the specific destination.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+The navigation menu has no problems and on smaller screens it transform in a 3-bar icon with a drop menu. 
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+For mobile view, the images presented in the projects section, change their position into one column and have no zoom effect as on a bigger screen. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The types of text used across the website are clear and readable on all types of screens (small or large). 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The contact form has been tested to see if it returns an error in case the user hasn't provided the mandatory fields and also if the email provided is not recognised as an email address it will prompt the user for action. 
+If all the mandatory fields are filled correctly and the information is submitted, a pop-up window will apear to confirm that the information has been sent successfully. 
+
 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This project has been crated using Gitpod and stored and deployed on Github pages, following the instructions provided. 
 
 
 ## Credits
