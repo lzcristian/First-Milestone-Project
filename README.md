@@ -58,6 +58,10 @@ The types of text used across the website are clear and readable on all types of
 The contact form has been tested to see if it returns an error in case the user hasn't provided the mandatory fields and also if the email provided is not recognised as an email address it will prompt the user for action. 
 If all the mandatory fields are filled correctly and the information is submitted, a pop-up window will apear to confirm that the information has been sent successfully. 
 
+## Bugs
+
+I notice that although the contact form and the submit button function well as shown on Bootstrap, they don't function well together and at the same time. Although no field is filled, the submit button still returns the message that it wwas sent successfully.
+Also, the form doesn't recognise the email field as the type of email required to have all the elements of an email adress.
 
 
 ## Deployment
