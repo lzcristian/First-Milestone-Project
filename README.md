@@ -1,3 +1,5 @@
+https://lzcristian.github.io/First-Milestone-Project/
+
 # Title: Architectural services and design
 
 The website represents the online presence of an architecture company in UK, which offers a wide range of architectural services from concept sketches to construction details.
@@ -23,7 +25,9 @@ At the top, the first section is dedicated to the hero image, an image represent
 The middle section represents the opportunity for the company to describe the services it offers at different stages of a project.
 The bottom section was created to highlight a selection with photos from various projects created by the company.
 
-The "Prices" page is entirely dedicated to listing the services that the company has to offer and the price for each individual service. This way the client knows from start how to plan his budget and whether he wants to appoint the company to do his requests. The presentation style for the services remains in the same line as on the main page, with blocks of text on a grey background. 
+The "Prices" page is entirely dedicated to listing the services that the company has to offer and the price for each individual service.  
+This way the client knows from start how to plan his budget and whether he wants to appoint the company to do his requests. 
+The presentation style for the services remains in the same line as on the main page, with blocks of text on a grey background.  
 
 The "About Us" page has a short presentation or the company's profile and the type of work they do. The grey and black style continues here as well. 
 
@@ -58,15 +62,18 @@ The types of text used across the website are clear and readable on all types of
 The contact form has been tested to see if it returns an error in case the user hasn't provided the mandatory fields and also if the email provided is not recognised as an email address it will prompt the user for action. 
 If all the mandatory fields are filled correctly and the information is submitted, a pop-up window will apear to confirm that the information has been sent successfully. 
 
+I have used the Markup Validation Service (https://validator.w3.org/) and the CSS Validation Service (https://jigsaw.w3.org/css-validator/) and both return no errors on the written code.
+
 ## Bugs
 
 I notice that although the contact form and the submit button function well as shown on Bootstrap, they don't function well together and at the same time. Although no field is filled, the submit button still returns the message that it wwas sent successfully.
 Also, the form doesn't recognise the email field as the type of email required to have all the elements of an email adress.
+This was solved with the help of my mentor by adding a javascript code.
 
 
 ## Deployment
 
-This project has been crated using Gitpod and stored and deployed on Github pages, following the instructions provided. 
+This project has been created using Gitpod and stored Github pages and deployed by creating a unique link in Github, following the instructions provided. 
 
 
 ## Credits

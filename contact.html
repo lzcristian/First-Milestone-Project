@@ -44,14 +44,14 @@
         <div class="col">
             <h3 class="contact-heading text-center">Get in touch, let's talk about your project!</h3>
             <div class="center-form">
-                <form>
+                <form id="contact-form">
                     <input type="text" name="name" id="fullname" class="form-control" placeholder="name*" required />
                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="email*" required />
                     <input type="text" name="phone" id="phone" class="form-control" placeholder="phone (optional)" required />
                     <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="message*" required></textarea>
                     <div class="form-row text-center">
                         <div class="col">
-                            <button type="button" class="btn btn-seconday" data-toggle="modal" data-target="#ModalCenter">
+                            <button type="submit" class="btn btn-seconday">
                             Send Your Message
                             </button>
                         </div>
@@ -132,7 +132,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/edf5d0f40a.js" crossorigin="anonymous"></script>
-   
+    <script>
+        $('#contact-form').submit(function(e) {
+            e.preventDefault();
+            $('#ModalCenter').modal('show');
+            $('#contact-form')[0].reset();
+        });
+    </script>
 
 </body>
 </html>

@@ -300,6 +300,13 @@ button[type="button"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
+    background-color: #424140;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
     background-color: #e84610;
 }
 
