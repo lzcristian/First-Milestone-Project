@@ -369,6 +369,13 @@ footer {
     font-size: 35px;
     }
 
+    .about-header {
+    color: #fff;
+    font-family: "Caveat", sans-serif;
+    font-size: 100px;
+    font-weight: bold;       
+    }
+
     .services-text h4 {
     margin-top: 20px;
     font-size: 15px;
